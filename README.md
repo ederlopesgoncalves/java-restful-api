@@ -3,7 +3,7 @@ Example REST APIs in Java with JAX-RS and Jersey using JWT Authentication.
 
 
 *** Filter Checking the JSON Web Token
-The magic hides behind JWTTokenNeeded. Well, not really, it hides behind the BearerTokenFilter. JWTTokenNeeded is just a JAX-RS name binding (think of it as a CDI interceptor binding), so it’s just an annotation that binds to a filter.
+The magic hides behind JsonTokenNeeded. Well, not really, it hides behind the BearerTokenFilter. JsonTokenNeeded is just a JAX-RS name binding (think of it as a CDI interceptor binding), so it’s just an annotation that binds to a filter.
 
 
 1 - Gets the HTTP Authorization header from the request and checks for the JSON Web Token (the Bearer string)
