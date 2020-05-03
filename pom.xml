@@ -136,7 +136,7 @@
                              <artifactId>tomcat8-maven-plugin</artifactId>
                              <version>2.2</version>
                              <configuration>
-                                  <port>9090</port>
+                                  <port>8081</port>
                                   <path>/</path>
                              </configuration>
                         </plugin>
