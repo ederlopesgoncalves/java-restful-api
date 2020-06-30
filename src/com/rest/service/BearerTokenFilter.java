@@ -26,7 +26,7 @@ public class BearerTokenFilter implements ContainerRequestFilter {
 	final static Logger log = Logger.getLogger(BearerTokenFilter.class);
 
 	private static final String AUTHORIZATION_HEADER_KEY = "Authorization";
-	private static final String AUTHORIZATION_HEADER_PREFIX = "Basic ";
+	private static final String AUTHORIZATION_HEADER_PREFIX = "Bearer ";
 	private static final String SECURED_URL_PREFIX = "api";
 
 	private static final String SECRET_KEY = "signingKey";
